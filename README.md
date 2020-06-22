@@ -21,7 +21,7 @@ This is a training project to test understanding of Javascript. I was given HTML
 https://jbdelapp.github.io/password-generator
 
 ## Screenshot
-
+![First Screenshot](https://github.com/jbdelapp/password-generator/blob/master/assets/images/Screen%20Shot%202020-06-21%20at%208.24.09%20PM.png)
 
 ## Status
 
