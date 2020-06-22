@@ -4,6 +4,7 @@
 * General Info / Purpose
 * Languages
 * URL
+* Screenshot
 * Status
 * Contribution / Credits
 
@@ -18,6 +19,9 @@ This is a training project to test understanding of Javascript. I was given HTML
 
 ## Website URL
 https://jbdelapp.github.io/password-generator
+
+## Screenshot
+
 
 ## Status
 

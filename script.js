@@ -45,22 +45,22 @@ function getPasswordOptions() {
         numbers === false &&
         lowerCases === false &&
         upperCases === false &&
-        specialCharacters === false 
-        ) {
-            alert('Password criteria must contain at least one character type');
-            return;
-        }
+        specialCharacters === false
+    ) {
+        alert('Password criteria must contain at least one character type');
+        return;
+    }
 
-        //Store users password options
-        var passwordOptions = {
-            passwordLength: passwordLength,
-            numbers: numbers,
-            upperCases: upperCases,
-            lowerCases: lowerCases,
-            specialCharacters: specialCharacters
-        };
+    //Store users password options
+    var passwordOptions = {
+        passwordLength: passwordLength,
+        numbers: numbers,
+        upperCases: upperCases,
+        lowerCases: lowerCases,
+        specialCharacters: specialCharacters
+    };
 
-        return passwordOptions;
+    return passwordOptions;
 }
 
 function getRandom(arr) {
@@ -78,8 +78,8 @@ function generatePassword() {
     //create new array to store possible types of characters from global arrays based on user input
     var possibleCharacters = [];
 
-      //Push new numeric values to possible list of Characters
-      if (options.numbers) {
+    //Push new numeric values to possible list of Characters
+    if (options.numbers) {
         possibleCharacters.push.apply(possibleCharacters, numericValue);
     }
 
@@ -113,11 +113,10 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
-
+    passwordText.value = password;
 }
 
 // Add event listener to generate button
